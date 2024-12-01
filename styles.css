@@ -106,3 +106,8 @@ body {
   font-weight: 500;
   user-select: none;
 }
+
+.container.dragging .floating-card.active {
+  transform: translate(-50%, -50%) scale(1); /* Combine translate and scale */
+  transition: none; /* Remove transitions during dragging for smoother experience */
+}

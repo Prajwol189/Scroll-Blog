@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let startY = 0; // Starting position for drag
   let isDragging = false; // Dragging state
 
-  // Function to update card states
+  // Function to update card state
   const updateCards = () => {
     cards.forEach((card) =>
       card.classList.remove("active", "previous", "next")
